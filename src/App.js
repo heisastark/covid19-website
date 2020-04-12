@@ -31,7 +31,6 @@ class App extends React.Component {
       <div className={styles.container}>
         <img className={styles.image} src={image} alt="COVID-19" />
         <p className={styles.para}>Hope everything gets better ASAP. </p>
-        <p>Stay 🏠. Stay Safe.</p>
         <p className={styles.para}>💙 from Yashasvi.</p>
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
